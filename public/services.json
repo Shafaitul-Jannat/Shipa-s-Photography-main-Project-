@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Engagement",
+        "price": "Starts from bdt 30,000",
+        "description": "Engagement sessions are the perfect opportunity for us to get to know each other before the big day. I believe with certainty that the more comfortable you are on your wedding day, the more beautiful your images will be. For every engagement session, I carefully plan the most incredible backdrops + locations and work closely with my clients to curate the perfect look in terms of attire, hair and makeup and special little details.",
+        "img": "https://img.freepik.com/free-vector/just-married-couple-beach_24877-58831.jpg?t=st=1650270968~exp=1650271568~hmac=a36ed006905e739e012087bca1fd378379e0e9829306314c61254e8231b021e8&w=740"
+    },
+    {
+        "id": 2,
+        "name": "WEDDING",
+        "price": "Starts from bdt 50,000",
+        "description": "From a castle in the hills of florence, to a luxurious resort in the bahamas. From a backyard wedding in the mountains to a modern warehouse in the city. Each event is captured with love, thoughtfulness and attention to detail no matter the destination.",
+        "img": "https://img.freepik.com/free-vector/indian-wedding-character-collection_52683-43956.jpg?t=st=1650288910~exp=1650289510~hmac=e6052295324ee98437b001bee985b3fabcd52a26f780a508acf64bae6130bb45&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Travelography",
+        "price": "Starts from bdt 15,000",
+        "description": "Landscape and travel photography are closely intertwined with each other. Travel photography, as many sub-genres of art and photography are, is largely undefined and encompasses a wide range of people, locations, cultures and ideas, including landscape photography. ",
+        "img": "https://img.freepik.com/free-vector/mountain-landscape-with-tourist-foreground_1441-60.jpg?t=st=1650270676~exp=1650271276~hmac=3e3c0d4b9812bfc88c0c3dde716abc7539a20c7643f252d43e1ebcca570bb60b&w=740"
+    }
+]
