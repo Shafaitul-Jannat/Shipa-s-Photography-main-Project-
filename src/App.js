@@ -12,6 +12,7 @@ import NotFound
 import Register from './Pages/LoginElement/Register/Register';
 import Checkout from './Pages/Checkout/Checkout';
 import RequireAuth from './Pages/LoginElement/RequireAuth/RequireAuth';
+import Blog from './Pages/Blog/Blog';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="/blog" element={<Blog
+        ></Blog>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register
         ></Register>}></Route>
