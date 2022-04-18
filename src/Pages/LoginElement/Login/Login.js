@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Button, Form, Toast } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
@@ -7,7 +7,7 @@ import SocialLogin from './SocialLogin/SocialLogin';
 // import Loading from '../../Shared/Loading/Loading';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import NotFound from '../../HomePage/Notfound/NotFound';
+import Loading from '../../HomePage/Loading/Loading';
 
 
 
@@ -31,8 +31,8 @@ const Login = () => {
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
-    if (loading || sending) {
-        return <NotFound></NotFound>
+    if (loading || loading) {
+        return <Loading></Loading>
     }
 
     if (user) {
