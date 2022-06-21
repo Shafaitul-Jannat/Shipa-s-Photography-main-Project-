@@ -2,7 +2,7 @@
 
 
 
-## Firebase Link: [https://independent-service-prov-df388.firebaseapp.com/]
+## Firebase Link: https://independent-service-prov-df388.firebaseapp.com/
 
 
 ## List of different features and functionality:
